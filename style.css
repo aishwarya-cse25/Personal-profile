@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 50px 15%;
+    color: #333;
+}
+
+/* Main heading */
+h1 {
+    background-color: white;
+    color: #5b3c88;
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Section headings */
+h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-left: 5px solid yellow;
+    padding-left: 15px;
+}
+
+/* Paragraph */
+p {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f06595;
+    color: white;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #0083b0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* LinkedIn link */
+a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+
+/* Hide email initially */
+#email {
+    display: none;
+}
+
+
+/* Dark Theme */
+.dark-theme {
+    background: #1e1e1e;
+}
+
+.dark-theme h1 {
+    background-color: #333;
+    color: white;
+}
+
+.dark-theme h2 {
+    color: #ffd166;
+}
+/* Welcome section */
+.welcome-box {
+    text-align: center;
+}
+
+/* Typing text */
+#typingText {
+    color: #5b3c88;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #f06595;
+}
+
+/* Interactive messages */
+#skillMessage,
+#motivationMessage,
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Like section */
+.like-section {
+    margin-top: 30px;
+}
+
+/* Contact box */
+.contact-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact-box textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Scroll to top button */
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+/* Animation for buttons */
+button {
+    transition: 0.3s;
+}
+
+/* Dark theme improvements */
+.dark-theme p,
+.dark-theme table,
+.dark-theme .contact-box {
+    background-color: #333;
+    color: white;
+}
+
+.dark-theme td {
+    color: white;
+}
+
+.dark-theme #typingText {
+    color: #ffd166;
+}

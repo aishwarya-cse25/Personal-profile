@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Profile</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Welcome Section -->
+    <div class="welcome-box">
+        <h1 id="mainHeading">My Personal Profile</h1>
+
+        <!-- Typing animation appears here -->
+        <p id="typingText"></p>
+
+        <!-- Dark Mode -->
+        <button id="themeButton">🌙 Dark Mode</button>
+    </div>
+
+
+    <!-- About Me -->
+    <h2>About Me</h2>
+
+    <p id="aboutText">
+        Hello! I am Aishwarya C, studying Computer Science and Engineering.
+        I am very passionate about technology and love learning new things.
+    </p>
+
+    <button id="aboutButton">Learn More About Me</button>
+
+    <p id="moreAbout" style="display: none;">
+        I enjoy exploring Web Development, programming, new technologies,
+        and continuously improving my technical skills.
+    </p>
+
+
+    <!-- Personal Information -->
+    <h2>Personal Information</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Aishwarya</td>
+        </tr>
+
+        <tr>
+            <th>Profession</th>
+            <td>Student</td>
+        </tr>
+
+        <tr>
+            <th>Skills</th>
+            <td>HTML, CSS, JavaScript</td>
+        </tr>
+    </table>
+
+
+    <!-- Skills Section -->
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <button class="skill">HTML</button>
+        <button class="skill">CSS</button>
+        <button class="skill">JavaScript</button>
+    </div>
+
+    <p id="skillMessage">
+        Click a skill to learn about it!
+    </p>
+
+
+    <!-- Hobbies -->
+    <h2>My Hobbies</h2>
+
+    <p>
+        I enjoy learning new technologies, programming, exploring
+        Web Development, reading novels, and reading self-improvement books.
+    </p>
+
+
+    <!-- Motivation -->
+    <h2>Daily Motivation</h2>
+
+    <button id="motivationButton">
+        ✨ Give Me Motivation
+    </button>
+
+    <p id="motivationMessage"></p>
+
+
+    <!-- Contact Section -->
+    <h2>Contact Me</h2>
+
+    <button id="emailButton">
+        📧 Show Email
+    </button>
+
+    <!-- Hidden initially using CSS -->
+    <p id="email">
+        Email: aishwaryacgowda25@gmail.com
+    </p>
+
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/aishwarya-c-b5079037a"
+       id="linkedin"
+       target="_blank">
+        Visit My LinkedIn Profile
+    </a>
+
+
+    <!-- Like Section -->
+    <div class="like-section">
+
+        <h2>Do You Like My Profile?</h2>
+
+        <button id="likeButton">
+            ❤️ Like My Profile
+        </button>
+
+        <p id="likeCount">
+            Likes: 0
+        </p>
+
+    </div>
+
+
+    <!-- Contact Form -->
+    <h2>Send Me a Message</h2>
+
+    <div class="contact-box">
+
+        <input
+            type="text"
+            id="userName"
+            placeholder="Enter your name"
+        >
+
+        <br><br>
+
+        <textarea
+            id="userMessage"
+            placeholder="Write your message..."
+        ></textarea>
+
+        <br><br>
+
+        <button id="sendButton">
+            Send Message
+        </button>
+
+        <p id="formMessage"></p>
+
+    </div>
+
+
+    <!-- Scroll To Top Button -->
+    <button id="topButton">
+        ⬆️ Top
+    </button>
+
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
